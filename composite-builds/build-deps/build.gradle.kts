@@ -48,6 +48,6 @@ subprojects {
   }
 
   tasks.withType(KotlinCompile::class.java) {
-    kotlinOptions.jvmTarget = "11"
+    compilerOptions.jvmTarget = "11"
   }
 }
